@@ -86,17 +86,18 @@ export default function Home() {
         <div className="flex justify-center">
         <img src="kjky.png" alt="Pic" className="py-2 mt-1" />
         </div>
-        <div className="flex justify-center mb-20">
-        <button style={{ backgroundColor: 'rgb(88,101,242)' }} className="text-white lg:text-xl md:text-base sm:text-sm text-xs rounded-full py-3 px-auto flex justify-around"><svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-12 fill-current text-white" viewBox="0 -960 960 960"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg>Download for Windows</button>
+        <div className="flex justify-center">
+        <button style={{ backgroundColor: 'rgb(88,101,242)' }} className=" px-6 text-white lg:text-xl md:text-base sm:text-sm text-xs rounded-full py-3 mb-12 flex justify-around hover:shadow-lg hover:shadow-gray-500 hover:duration-700  duration-500"><svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-12 fill-current text-white" viewBox="0 -960 960 960"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg>Download for Windows</button>
       </div>
       </div>
-      <footer style={{ backgroundColor: 'rgb(35,39,42)' }} className="w-full py-5 mt-1 flex">
+      <footer style={{ backgroundColor: 'rgb(35,39,42)' }} className="w-full flex">
         <div className="px-60 py-20">
           <button data-dropdown-toggle="dropdown" className="text-white flex">English<svg className="w-2.5 h-2.5 ms-3 my-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
 </svg></button>
-        <div className="flex gap-2 py-6">
-          <ul>
+
+        <div className="py-6">
+          <ul className="flex gap-3">
             <li className="text-white w-10 h-8"><FontAwesomeIcon icon={faFacebook} className="fa-brands fa-facebook" />
 </li>
             <li className="text-white w-10 h-8"><FontAwesomeIcon icon={faXTwitter} className="fa-brands fa-x-twitter" /></li>
@@ -106,7 +107,7 @@ export default function Home() {
           </ul>
         </div>
         </div>
-        <div className="flex px-20 gap-8 py-20">
+        <div className="flex px-20 gap-8  py-20 ">
         <div>
         <ul style={{ color: 'rgb(88,101,242)' }} className="">
           <li>Products</li>
